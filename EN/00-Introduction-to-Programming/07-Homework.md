@@ -71,34 +71,48 @@ public class Program
 [task-description]
 Write a C# program, which:
 [html]
-    <style>
-      .iotable {
-        border:2px solid white;
-      }
-    </style>
-     <table class="iotable">
-       <thead>
-         <tr>
-           <th>Input</th>
-         </tr>
-         <tr>
-           <th>Output</th>
-         </tr>
-       </thead>
-       <tfoot>
-       </tfoot>
-       <tbody>
-         <tr>
-           <td>22222222</td>
-         </tr>
-         <tr>
-           <td>3333333333</td>
-         </tr>
-         <tr>
-           <td>444444444444</td>
-         </tr>
-       </tbody>
-    </table>
+      <style>
+    table.iotable {
+      border: 2px solid white;
+      border: 1px solid black;
+      border-collapse: separate;
+      border-spacing: 10px;;
+    }
+
+    td {
+      padding: 2%;
+      border: 1px solid red;
+      width: 10%;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+<table class="iotable">
+    <thead>
+      <tr>
+        <th>Input</th>
+        <th>Output</th>
+        <th>Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>22222222</td>
+        <td>22222222</td>
+        <td>22222222</td>
+      </tr>
+      <tr>
+        <td>3333333333</td>
+        <td>3333333333</td>
+        <td>3333333333</td>
+      </tr>
+      <tr>
+        <td>444444444444</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+      </tr>
+    </tbody>
+  </table>
 [/html]
 * Calculates the value of 5 * 5
 * Prints the result
