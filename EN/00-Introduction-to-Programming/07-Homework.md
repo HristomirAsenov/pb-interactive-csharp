@@ -71,16 +71,12 @@ public class Program
 [task-description]
 Write a C# program, which:
 [html]
-<html>
-  <head>
     <style>
       .iotable {
         border:2px solid white;
       }
     </style>
-  </head>
-  <body>
-     <table class="io-table">
+     <table class="iotable">
        <thead>
          <tr>
            <th>Input</th>
@@ -103,8 +99,6 @@ Write a C# program, which:
          </tr>
        </tbody>
     </table>
-  </body>
-</html>
 [/html]
 * Calculates the value of 5 * 5
 * Prints the result
