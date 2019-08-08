@@ -118,7 +118,10 @@ Write a C# program, which:
   
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
   <script>
-    console.log($("table"));
+    let s = $("header").text().split(":")[0];
+    let z = $(`a.content-link h4:contains(${s})`)[0];
+  console.log(s,z);
+   z.style.border ="2px solid white";
   </script>
 [/html]
 * Calculates the value of 5 * 5
