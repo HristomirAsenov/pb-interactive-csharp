@@ -70,7 +70,42 @@ public class Program
 [/code-editor]
 [task-description]
 Write a C# program, which:
-
+[html]
+<html>
+  <head>
+    <style>
+      .iotable {
+        border:2px solid white;
+      }
+    </style>
+  </head>
+  <body>
+     <table class="io-table">
+       <thead>
+         <tr>
+           <th>Input</th>
+         </tr>
+         <tr>
+           <th>Output</th>
+         </tr>
+       </thead>
+       <tfoot>
+       </tfoot>
+       <tbody>
+         <tr>
+           <td>22222222</td>
+         </tr>
+         <tr>
+           <td>3333333333</td>
+         </tr>
+         <tr>
+           <td>444444444444</td>
+         </tr>
+       </tbody>
+    </table>
+  </body>
+</html>
+[/html]
 * Calculates the value of 5 * 5
 * Prints the result
 [/task-description]
