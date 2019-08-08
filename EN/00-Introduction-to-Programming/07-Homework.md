@@ -71,7 +71,7 @@ public class Program
 [task-description]
 Write a C# program, which:
 [html]
-      <style>
+    <style>
     table.iotable {
       border: 2px solid white;
       border: 1px solid black;
@@ -87,6 +87,8 @@ Write a C# program, which:
       text-align: center;
     }
   </style>
+
+        
 <table class="iotable">
     <thead>
       <tr>
@@ -113,6 +115,11 @@ Write a C# program, which:
       </tr>
     </tbody>
   </table>
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+  <script>
+    console.log($("table"));
+  </script>
 [/html]
 * Calculates the value of 5 * 5
 * Prints the result
