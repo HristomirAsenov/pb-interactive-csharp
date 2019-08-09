@@ -103,9 +103,8 @@ Write a C# program, which:
 [html]
     <style>
     table{
-    border:1px solid gray;
+    border:2px solid white;
     padding: 1%;
-    width: 70%;
     border-radius: 4px;
     border-collapse: separate;
     border-spacing: 10px;
@@ -114,16 +113,21 @@ Write a C# program, which:
 table th{
     text-decoration: underline;
     text-align: center;
+    padding-bottom: 3px;
 }
 table tbody td{
     text-align: center;
-    border-bottom:1px solid gray;
+    border-bottom:1px solid white;
     padding: 0.5%;
 }
 
 table tbody tr:nth-child(even){
     background-color: #234465;
     color: white
+}
+
+table tr:last-child{
+  border: none;
 }
 
 table tbody tr:nth-child(odd){
