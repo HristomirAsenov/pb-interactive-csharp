@@ -139,35 +139,51 @@ table tr td:not(:last-child):hover{
 <table class="iotable">
     <thead>
       <tr>
-        <th>Input</th>
-        <th>Output</th>
+        <th>#</th>
+        <th colspan="2">Input</th>
+        <th colspan="2">Output</th>
         <th>Comment</th>
       </tr>
     </thead>
     <tbody>
       <tr>
+        <td>1</td>
         <td>22222222</td>
+        <td>expected to => </td>
         <td>22222222</td>
+         <td>=></td>
         <td>22222222</td>
       </tr>
       <tr>
+        <td>2</td>
         <td>3333333333</td>
+        <td>expected to => </td>
         <td>3333333333</td>
+         <td>=></td>
         <td>3333333333</td>
       </tr>
       <tr>
+        <td>3</td>
         <td>444444444444</td>
+        <td>expected to => </td>
         <td>444444444444</td>
-        <td>444444444444</td>
-      </tr>
-      <tr>
-        <td>444444444444</td>
-        <td>444444444444</td>
+         <td>=></td>
         <td>444444444444</td>
       </tr>
       <tr>
+        <td>4</td>
         <td>444444444444</td>
+        <td>expected to => </td>
         <td>444444444444</td>
+         <td>=></td>
+        <td>444444444444</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>444444444444</td>
+        <td>expected to => </td>
+        <td>444444444444</td>
+        <td>=></td>
         <td>444444444444</td>
       </tr>
     </tbody>
