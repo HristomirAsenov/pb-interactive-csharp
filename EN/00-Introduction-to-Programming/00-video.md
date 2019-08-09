@@ -10,15 +10,15 @@
     }
   </style>
   <script>
-    document.querySelectorAll(".lesson-navigation-section")
+document.querySelectorAll(".lesson-navigation-section")
     .forEach((s) => s.querySelectorAll("a.content-link h4")
     .forEach((h) => h.addEventListener('click', (e) => {
-    let previouslySelectedElement = document.querySelector(".someCustomTrackSection");
-    if(previouslySelectedElement){
-     previouslySelectedElement.className = "";
-    }
-    let currentUrlId = window.location.hash;
-    document.querySelector(`.lesson-navigation-section a.content-link[href="${currentUrlId}"]`).className = "someCUstomTrackSection";
+      console.log(e.currentTarget);
+      let previouslySelectedElement = document.querySelector(".someCustomTrackSection");
+      if (previouslySelectedElement) {
+         previouslySelectedElement.className = "";
+      }
+      e.currentTarget.className = "someCustomTrackSection";   
      })))
   </script>
 [/html]
