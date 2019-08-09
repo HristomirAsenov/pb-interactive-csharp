@@ -16,7 +16,7 @@
          previouslySelectedElement.className = "";
       }
       let currentUrlId = window.location.hash;
-      document.querySelector(`.lesson-navigation-section a.content-link[href="${currentUrlId}"]`).className = "someCUstomTrackSection";
+      document.querySelector(`.lesson-navigation-section a.content-link[href="${currentUrlId}"]`).className = "someCustomTrackSection";
     }
   </script>
 [/html]
