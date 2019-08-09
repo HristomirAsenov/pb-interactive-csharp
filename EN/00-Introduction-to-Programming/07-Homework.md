@@ -103,7 +103,7 @@ Write a C# program, which:
 [html]
     <style>
     table{
-    border:1px solid white;
+    border:1px solid gray;
     padding: 1%;
     width: 70%;
     border-radius: 4px;
@@ -125,7 +125,7 @@ table tbody tr:nth-child(even){
 
 table tbody tr:nth-child(odd){
     color: white;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
 }
 
 table tr td:not(:last-child):hover{
@@ -151,6 +151,16 @@ table tr td:not(:last-child):hover{
         <td>3333333333</td>
         <td>3333333333</td>
         <td>3333333333</td>
+      </tr>
+      <tr>
+        <td>444444444444</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+      </tr>
+      <tr>
+        <td>444444444444</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
       </tr>
       <tr>
         <td>444444444444</td>
