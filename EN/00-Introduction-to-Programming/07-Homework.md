@@ -102,19 +102,36 @@ Write a C# program, which:
 [/code-task]
 [html]
     <style>
-    table.iotable {
-      border: 2px solid white;
-      border: 1px solid black;
-      border-collapse: separate;
-      border-spacing: 10px;;
-    }
+    table{
+    border:1px solid #234465;
+    padding: 1%;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 4px;
+}
+table th{
+    text-decoration: underline;
+    text-align: center;
+}
+table tbody td{
+    text-align: center;
+    border-bottom:1px solid black;
+    padding: 0.5%;
+}
 
-    td {
-      padding: 2%;
-      border: 1px solid red;
-      width: 10%;
-      border-radius: 5px;
-      text-align: center;
+table tbody tr:nth-child(even){
+    background-color: #234465;
+    color: white
+}
+
+table tbody tr:nth-child(odd){
+    color: #234465;
+    border-bottom: 1px solid black;
+}
+
+table tr td:not(:last-child):hover{
+    text-decoration: underline;
+}
     }
   </style>
 <table class="iotable">
