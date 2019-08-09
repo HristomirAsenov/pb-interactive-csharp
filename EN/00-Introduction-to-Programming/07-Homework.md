@@ -117,7 +117,7 @@ table th{
 }
 table tbody td{
     text-align: center;
-    border-bottom:1px solid black;
+    border-bottom:1px solid gray;
     padding: 0.5%;
 }
 
@@ -151,7 +151,7 @@ table tr td:not(:last-child):hover{
         <td>22222222</td>
         <td>expected to => </td>
         <td>22222222</td>
-         <td>=></td>
+         <td> => </td>
         <td>22222222</td>
       </tr>
       <tr>
@@ -159,7 +159,7 @@ table tr td:not(:last-child):hover{
         <td>3333333333</td>
         <td>expected to => </td>
         <td>3333333333</td>
-         <td>=></td>
+         <td> => </td>
         <td>3333333333</td>
       </tr>
       <tr>
@@ -167,7 +167,7 @@ table tr td:not(:last-child):hover{
         <td>444444444444</td>
         <td>expected to => </td>
         <td>444444444444</td>
-         <td>=></td>
+         <td> => </td>
         <td>444444444444</td>
       </tr>
       <tr>
@@ -175,7 +175,7 @@ table tr td:not(:last-child):hover{
         <td>444444444444</td>
         <td>expected to => </td>
         <td>444444444444</td>
-         <td>=></td>
+         <td> => </td>
         <td>444444444444</td>
       </tr>
       <tr>
@@ -183,7 +183,7 @@ table tr td:not(:last-child):hover{
         <td>444444444444</td>
         <td>expected to => </td>
         <td>444444444444</td>
-        <td>=></td>
+        <td> => </td>
         <td>444444444444</td>
       </tr>
     </tbody>
