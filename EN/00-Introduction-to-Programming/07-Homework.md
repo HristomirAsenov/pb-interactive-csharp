@@ -103,9 +103,8 @@ Write a C# program, which:
 [html]
     <style>
     table{
-    border:1px solid #234465;
+    border:1px solid white;
     padding: 1%;
-    margin: 0 auto;
     width: 70%;
     border-radius: 4px;
 }
@@ -125,7 +124,7 @@ table tbody tr:nth-child(even){
 }
 
 table tbody tr:nth-child(odd){
-    color: #234465;
+    color: white;
     border-bottom: 1px solid black;
 }
 
