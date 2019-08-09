@@ -70,69 +70,6 @@ public class Program
 [/code-editor]
 [task-description]
 Write a C# program, which:
-[html]
-    <style>
-    table.iotable {
-      border: 2px solid white;
-      border: 1px solid black;
-      border-collapse: separate;
-      border-spacing: 10px;;
-    }
-
-    td {
-      padding: 2%;
-      border: 1px solid red;
-      width: 10%;
-      border-radius: 5px;
-      text-align: center;
-    }
-    
-    .someCustomTrackSection{
-    border:1px solid yellow;
-    }
-  </style>
-
-        
-<table class="iotable">
-    <thead>
-      <tr>
-        <th>Input</th>
-        <th>Output</th>
-        <th>Comment</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>22222222</td>
-        <td>22222222</td>
-        <td>22222222</td>
-      </tr>
-      <tr>
-        <td>3333333333</td>
-        <td>3333333333</td>
-        <td>3333333333</td>
-      </tr>
-      <tr>
-        <td>444444444444</td>
-        <td>444444444444</td>
-        <td>444444444444</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
-  <script>
-    document.querySelectorAll(".lesson-navigation-section")
-    .forEach((s) => s.querySelectorAll("a.content-link h4")
-    .forEach((h) => h.addEventListener('click', (e) => {
-      let previouslySelectedElement = document.querySelector(".someCustomTrackSection");
-      if (previouslySelectedElement) {
-         previouslySelectedElement.className = "";
-      }
-      e.currentTarget.className = "someCustomTrackSection";   
-     })))
-  </script>
-[/html]
 * Calculates the value of 5 * 5
 * Prints the result
 [/task-description]
@@ -164,7 +101,48 @@ Write a C# program, which:
 [code-io /]
 [/code-task]
 [html]
-<h1>TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESTING</h1>
+    <style>
+    table.iotable {
+      border: 2px solid white;
+      border: 1px solid black;
+      border-collapse: separate;
+      border-spacing: 10px;;
+    }
+
+    td {
+      padding: 2%;
+      border: 1px solid red;
+      width: 10%;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+<table class="iotable">
+    <thead>
+      <tr>
+        <th>Input</th>
+        <th>Output</th>
+        <th>Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>22222222</td>
+        <td>22222222</td>
+        <td>22222222</td>
+      </tr>
+      <tr>
+        <td>3333333333</td>
+        <td>3333333333</td>
+        <td>3333333333</td>
+      </tr>
+      <tr>
+        <td>444444444444</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+      </tr>
+    </tbody>
+  </table>
 [/html]
 [/slide]
 
