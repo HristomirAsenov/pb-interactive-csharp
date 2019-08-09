@@ -10,16 +10,14 @@
     }
   </style>
   <script>
-document.querySelectorAll(".lesson-navigation-section")
-    .forEach((s) => s.querySelectorAll("a.content-link h4")
-    .forEach((h) => h.addEventListener('click', (e) => {
-      console.log(e.currentTarget);
+    window.onhashchange = function() { 
       let previouslySelectedElement = document.querySelector(".someCustomTrackSection");
       if (previouslySelectedElement) {
          previouslySelectedElement.className = "";
       }
-      e.currentTarget.className = "someCustomTrackSection";   
-     })))
+      let currentUrlId = window.location.hash;
+      document.querySelector(`.lesson-navigation-section a.content-link[href="${currentUrlId}"]`).className = "someCUstomTrackSection";
+    }
   </script>
 [/html]
 [/slide]
