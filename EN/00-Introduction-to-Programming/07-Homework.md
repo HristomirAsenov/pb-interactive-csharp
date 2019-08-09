@@ -107,6 +107,9 @@ Write a C# program, which:
     padding: 1%;
     width: 70%;
     border-radius: 4px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    font-size: 20px;
 }
 table th{
     text-decoration: underline;
