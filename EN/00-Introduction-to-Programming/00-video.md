@@ -10,10 +10,6 @@
   </style>
   <script>
     window.onhashchange = function() { 
-      let previouslySelectedElements = document.getElementsByClassName("sectionTracker");
-      if (previouslySelectedElements.length > 0) {
-         previouslySelectedElements[0].className = "content-link";
-      }
       let urlId = window.location.hash;
       console.log(urlId);
       let currElement = document.querySelector(`.lesson-navigation-section a.content-link[href="${urlId}"]`);
