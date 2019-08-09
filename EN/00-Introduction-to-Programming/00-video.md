@@ -11,12 +11,12 @@
   </style>
   <script>
     window.onhashchange = function() { 
-      let previouslySelectedElement = document.querySelectorAll(".someCustomTrackSection");
+      let previouslySelectedElement = document.querySelector(".someCustomTrackSection");
       if (previouslySelectedElement) {
-         previouslySelectedElement[0].classList.remove("someCustomTrackSection");
+         previouslySelectedElement.className = 'content-link';
       }
       let urlId = window.location.hash;
-      document.querySelectorAll(`.lesson-navigation-section a.content-link[href="${urlId}"]`)[0].classList.add("someCustomTrackSection");
+      document.querySelector(`.lesson-navigation-section a.content-link[href="${urlId}"]`).className = "content-link someCustomTrackSection";
     }
   </script>
 [/html]
