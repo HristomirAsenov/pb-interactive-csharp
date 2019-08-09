@@ -13,11 +13,11 @@
     window.onhashchange = function() { 
       let previouslySelectedElement = document.querySelector(".someCustomTrackSection");
       if (previouslySelectedElement) {
-         previouslySelectedElement.className = "";
+         previouslySelectedElement.classList.remove("someCustomTrackSection");
       }
       let urlId = window.location.hash;
       console.log(urlId);
-      document.querySelector(`.lesson-navigation-section a.content-link[href="${urlId}"]`).className = "someCustomTrackSection";
+      document.querySelector(`.lesson-navigation-section a.content-link[href="${urlId}"]`).classList.add("someCustomTrackSection");
     }
   </script>
 [/html]
