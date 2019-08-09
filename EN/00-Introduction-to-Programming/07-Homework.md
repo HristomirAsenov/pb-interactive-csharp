@@ -105,6 +105,7 @@ Write a C# program, which:
     table{
     border:2px solid white;
     padding: 1%;
+    width: 100%;
     border-radius: 4px;
     border-collapse: separate;
     border-spacing: 10px;
