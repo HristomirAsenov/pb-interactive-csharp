@@ -5,7 +5,7 @@
 [html]
    <style>  
     #sectionTracker{
-     background-color: orange;
+     color: #ffa000;
     }
   </style>
   <script>
