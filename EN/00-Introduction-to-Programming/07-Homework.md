@@ -104,7 +104,7 @@ Write a C# program, which:
     <style>
     table.iotable{
     border:2px solid white;
-    padding: 3%;
+    padding: 5px;
     width: 100%;
     border-radius: 4px;
     border-spacing: 10px;
@@ -137,6 +137,9 @@ table tbody tr:nth-child(odd){
 
 table tr td:not(:last-child):hover{
     text-decoration: underline;
+}
+table tr{
+padding:10px;
 }
     }
   </style>
