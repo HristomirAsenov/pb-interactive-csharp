@@ -114,11 +114,12 @@ table th{
     text-decoration: underline;
     text-align: center;
     padding-bottom: 3px;
+    padding: 1.0%;
 }
 table tbody td{
     text-align: center;
     border-bottom:1px solid white;
-    padding: 1.5%;
+    padding: 1.0%;
 }
 
 table tbody tr:nth-child(even){
