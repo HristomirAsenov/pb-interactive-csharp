@@ -118,7 +118,7 @@ table th{
 table tbody td{
     text-align: center;
     border-bottom:1px solid white;
-    padding: 0.5%;
+    padding: 1.5%;
 }
 
 table tbody tr:nth-child(even){
@@ -137,9 +137,6 @@ table tbody tr:nth-child(odd){
 
 table tr td:not(:last-child):hover{
     text-decoration: underline;
-}
-table tr{
-padding:10px;
 }
     }
   </style>
