@@ -104,7 +104,7 @@ Write a C# program, which:
     <style>
     table.iotable{
     border:2px solid white;
-    padding: 1%;
+    padding: 3%;
     width: 100%;
     border-radius: 4px;
     border-spacing: 10px;
