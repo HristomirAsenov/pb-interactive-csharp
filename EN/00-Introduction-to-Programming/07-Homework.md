@@ -107,7 +107,6 @@ Write a C# program, which:
     padding: 1%;
     width: 100%;
     border-radius: 4px;
-    border-collapse: separate;
     border-spacing: 10px;
     font-size: 20px;
 }
@@ -160,7 +159,6 @@ table tr td:not(:last-child):hover{
       <tr>
         <td>2</td>
         <td>3333333333</td>
-        <td>expected to => </td>
         <td>3333333333</td>
         <td>3333333333</td>
       </tr>
